@@ -13,7 +13,7 @@ public class Main2Activivty extends AppCompatActivity{
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-
+//123
         dbHelper=new MyDBHelper(this,"UserStore.db",null,1);
     }
 }
